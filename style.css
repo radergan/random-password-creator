@@ -5,4 +5,5 @@
     color:rgb(0, 59, 15);
     font-size:2em;
     letter-spacing:-0.06em;
+    border-style:2px rgb(0, 59, 15) dashed;
 }
