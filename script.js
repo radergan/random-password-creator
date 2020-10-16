@@ -24,7 +24,7 @@ function generatePassword(){
   //array based on types of complexity the user wants
 
   if(includeSpecials)
-  	charLists.push("!@#$%^&*()=+") //intentional ommission of some less common specials
+  	charLists.push("!@#$%^&*=+") //intentional ommission of some less common specials
   if(includeNumbers)
   	charLists.push("0123456789") 
   if(includeUppers)
